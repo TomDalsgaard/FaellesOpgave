@@ -1,5 +1,5 @@
 ﻿// TODO: Wrap this file's code in an immediately invoked function expression
-function(){}
+//function(){}
 
 
 // TODO: Strict mode
