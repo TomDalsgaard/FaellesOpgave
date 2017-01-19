@@ -1,6 +1,9 @@
 ﻿// TODO: Wrap this file's code in an immediately invoked function expression
+//function(){}
+
 
 // TODO: Strict mode
+'use strict'
 
 var copyOwnProperties = function (from, to) {
     for (var propertyName in from) {
