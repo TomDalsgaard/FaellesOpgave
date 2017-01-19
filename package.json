@@ -1,14 +1,16 @@
 {
-   "name": "Demo",
-   "version": "1.0.0",
-   "description": "demo project.",
-   "scripts": {
-     "lite": "lite-server –port 10001",
-     "start": "npm run lite"
-   },
-   "author": "",
-   "license": "ISC",
-   "devDependencies": {
-     "lite-server": "^2.2.2"
-   }
+  "name": "express-static-files",
+  "version": "1.0.0",
+  "description": "..",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
