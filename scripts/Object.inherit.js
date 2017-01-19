@@ -24,7 +24,9 @@ var inherit = function (additionalProperties) {
     
     // TODO: Create a variable named `factory`, assign it a new object who's prototype is `this`.
 
-   var factory = function(fabrik){
+   var factory = Object.create(this);
+   
+   function(fabrik){
        var _fabrik
 
         this.getFactory = function (){
